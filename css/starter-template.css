@@ -24,3 +24,11 @@ body {
 .pub-names {
   font-weight: bold
 }
+
+@media only screen and (min-width: 600px) {
+  p.abstract {
+    text-align: justify;
+    width: 500px;
+  }
+}
+
